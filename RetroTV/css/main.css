@@ -2,20 +2,26 @@
     margin:0;
     padding:0;
 }
+
 body {
-    background-color:#eee;
-    color:#fff;
+    background-color:#fff;
+    color: #000;
     font:14px/1.3 Verdana;
+    text-align: center;
+    font-size: 24px;
 }
+
 header {
     background-color:#3ca1c3;
     box-shadow: 0 -1px 2px #111111;
     display:block;
+    color:#fff;
     height:70px;
     width:100%;
     z-index:100;
     text-align: center;
 }
+
 header h2 {
     font-size:22px;
     font-weight:normal;
@@ -23,28 +29,32 @@ header h2 {
     width:540px;
     text-align: center;
 }
-header a.stuts,a.stuts:visited {
-    border:none;
-    text-decoration:none;
-    color:#fcfcfc;
-    font-size:14px;
-    left:50%;
-    line-height:31px;
-    margin:23px 0 0 110px;
-    position:absolute;
-    top:0;
+
+p, footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-header .stuts span {
-    font-size:22px;
-    font-weight:bold;
-    margin-left:5px;
+
+footer {
+    margin-top: 450px;
+    font-size: 14px;
 }
-.clocks {
-    height: 500px;
-    margin: 25px auto;
-    position: relative;
-    width: 500px;
-    background-color:#d8ecf3;
-    border: 2px outset black;
-    box-shadow: 10px 10px 12px #aaa;
+
+img {
+    width: 780px;
+    height: 410px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -360px;
+    z-index: 1;
+}
+
+video {
+    width: 480px;
+    position: absolute;
+    margin-left: -265px;
+    margin-top: 98px;
+    box-shadow: 0 0 5px 8px #888888;
+    filter: grayscale(1);
+    z-index: 2;
 }
