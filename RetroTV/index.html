@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <title>Retro TV</title>
         <link href="css/main.css" rel="stylesheet" type="text/css" />
-        <script src="js/script.js"></script>
     </head>
     <body>
         <header>
@@ -17,7 +16,7 @@
 
         <img src="images/retro-tv.jpeg" />
 
-        <video class="video" loop autoplay controls>
+        <video id="video" class="video" loop autoplay controls>
             <source src="videos/video.mp4" type="video/mp4">
             <track src="subtitles/subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default />
             <track src="subtitles/subtitles_de.vtt" kind="subtitles" srclang="de" label="Deutsch" />
@@ -40,3 +39,6 @@
         </footer>
     </body>
 </html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
