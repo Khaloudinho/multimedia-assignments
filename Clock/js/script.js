@@ -73,7 +73,7 @@ function drawScene() { // main drawScene function
     ctx.lineTo(-15, 3);
     ctx.lineTo(clockRadius * 0.9, 1);
     ctx.lineTo(clockRadius * 0.9, -1);
-    ctx.lineWidth=4;
+    ctx.lineWidth = 4;
     ctx.fillStyle = 'red';
     ctx.fill();
     ctx.restore();
@@ -82,7 +82,7 @@ function drawScene() { // main drawScene function
 }
 
 // initialization
-$(function(){
+$(function () {
     canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
 

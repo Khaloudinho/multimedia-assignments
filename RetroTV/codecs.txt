@@ -1,0 +1,15 @@
+H.264 :
+
+Par exemple, voici une répartition des redevances qui doivent être payées si vous utilisez H.264 dans le cadre
+d'un service vidéo par abonnement. Les montants sont facturés annuellement et sont basés sur le nombre d'abonnés :
+
+100 000 abonnés ou moins = pas de redevances
+100 001 à 250 000 abonnés = 25 000 $
+250 001 à 500 000 abonnés = 50 000 $
+500 001 à 1 000 000 abonnés = 75 000 $
+plus de 1 000 000 d'abonnés = 100 000 $git
+
+Développeur de logiciels :
+0 - 100 000 unités par an = pas de redevance
+0,20 USD par unité après les 100 000 premières unités chaque année
+au-dessus de 5 millions d'unités par an, redevance = 0,10 $ US par unité.
