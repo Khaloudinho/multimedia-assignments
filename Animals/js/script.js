@@ -1,4 +1,4 @@
-(function() {
+(function () {
 
     function speak(text) {
         var msg = new SpeechSynthesisUtterance();
@@ -8,18 +8,20 @@
         msg.rate = 1;
         msg.pitch = 1;
 
-            msg.voice = speechSynthesis.getVoices().filter(function (voice) {
-                return voice.name === "Google US English";
-            })[0];
+        msg.voice = speechSynthesis.getVoices().filter(function (voice) {
+            return voice.name === "Google US English";
+        })[0];
         window.speechSynthesis.speak(msg);
     }
 
     document.querySelector('#cat').onclick = function () {
         play(this.id);
     }
+
     document.querySelector('#Chewbacca').onclick = function () {
         play(this.id);
     }
+
     document.querySelector('#dog').onclick = function () {
         play(this.id);
     }
