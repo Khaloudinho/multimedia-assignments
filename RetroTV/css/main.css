@@ -74,3 +74,17 @@ button#button-colors {
     display: inline-block;
     font-size: 16px;
 }
+
+canvas#canvas {
+    width: 480px;
+    height: 245px;
+    color: white;
+    top: 343px;
+    left: 494px;
+    position: absolute;
+    z-index: 3;
+}
+
+p#subtitles-message {
+    font-size: 14px;
+}

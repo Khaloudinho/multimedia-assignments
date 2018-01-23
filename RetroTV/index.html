@@ -5,19 +5,6 @@
     <title>Retro TV</title>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#button-colors").click(function () {
-                if ($("#button-colors").html() === "Color mode") {
-                    $("video").css("filter", "none");
-                    $("#button-colors").html("Retro mode");
-                } else {
-                    $("video").css("filter", "grayscale(1)");
-                    $("#button-colors").html("Color mode");
-                }
-            });
-        });
-    </script>
 </head>
 <body>
 <header>
@@ -29,11 +16,14 @@
     <br/>
     <br/>
     <button id="button-colors">Color mode</button>
+    <p id="subtitles-message"><b>IMPORTANT : </b>To change the subtitles lang turn into color mode. <br />In retro mode we cannot do it because of the canvas</p>
 </p>
 
 <img src="images/retro-tv.jpeg"/>
 
-<video id="video" class="video" loop autoplay controls poster="//s3-us-west-2.amazonaws.com/s.cdpn.io/68939/wppost.jpg">
+<canvas id="canvas"></canvas>
+
+<video id="video" class="video" loop autoplay controls>
     <source src="videos/video.mp4" type="video/mp4">
     <track src="subtitles/subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default/>
     <track src="subtitles/subtitles_de.vtt" kind="subtitles" srclang="de" label="Deutsch"/>
@@ -46,5 +36,8 @@
     I do not own this video it is the property of <br/>
     ℗ 2017 Asylum Records UK, a division of Atlantic Records UK, a Warner Music Group company.
 </footer>
+
+<script src="js/script.js" type="text/javascript"></script>
+
 </body>
 </html>

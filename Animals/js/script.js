@@ -51,7 +51,7 @@
 
     function printRandomAnimal() {
         var animals = ["the cat", "Chewbacca", "the dog", "the lion", "the monkey", "the pig", "the rabbit", "the tiger", "the turkey"];
-        document.querySelector('h1').textContent = "Click on " + animals[Math.floor(Math.random() * 8)];
+        document.querySelector('h1').textContent = "Click on " + animals[Math.floor(Math.random() * 9)];
         speak(document.querySelector('h1').textContent);
     }
 
