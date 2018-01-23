@@ -30,12 +30,12 @@ header h2 {
     text-align: center;
 }
 
-#title, footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
+p#title, footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-#credits {
+p#credits {
     font-size: 24px;
     font-weight: bold;
 }
@@ -54,7 +54,7 @@ img {
     z-index: 1;
 }
 
-video {
+video#video {
     width: 480px;
     position: absolute;
     margin-left: -265px;
@@ -62,4 +62,15 @@ video {
     box-shadow: 0 0 5px 8px #888888;
     filter: grayscale(1);
     z-index: 2;
+}
+
+button#button-colors {
+    background-color: #483D8B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

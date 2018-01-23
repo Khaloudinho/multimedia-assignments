@@ -4,6 +4,20 @@
     <meta charset="utf-8"/>
     <title>Retro TV</title>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#button-colors").click(function() {
+                if ($("#button-colors").html() === "Mode colors") {
+                    $("video").css("filter", "none");
+                    $("#button-colors").html("Mode retro");
+                } else {
+                    $("video").css("filter", "grayscale(1)");
+                    $("#button-colors").html("Mode colors");
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 <header>
@@ -12,6 +26,9 @@
 
 <p id="title">
     Ed Sheeran - Shape Of You (Official Video)
+    <br />
+    <br />
+    <button id="button-colors">Mode colors</button>
 </p>
 
 <img src="images/retro-tv.jpeg"/>
@@ -26,19 +43,8 @@
 
 <footer>
     <p id="credits">Credits : </p>
-    Director: Jason Koenig <br/>
-    Producer: Honna Kimmerer <br/>
-    Production company: Anonymous Content <br/>
-    Exec Producer: Nina Soriano <br/>
-
-    Cinematography: Johnny Valencia, Ryan Haug <br/>
-    Edited by: Johnny Valencia, Jason Koenig <br/>
-    Commissioner: Dan Curwin <br/>
-
-    Co-Starring: Jennie Pegouskie, Yama
+    I do not own this video it is the property of <br />
+    ℗ 2017 Asylum Records UK, a division of Atlantic Records UK, a Warner Music Group company.
 </footer>
 </body>
 </html>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/script.js"></script>
