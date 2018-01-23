@@ -1,15 +1,31 @@
-H.264 :
+# Codec H.264 :
 
-Par exemple, voici une répartition des redevances qui doivent être payées si vous utilisez H.264 dans le cadre
+- Par exemple, voici une répartition des redevances qui doivent être payées si vous utilisez H.264 dans le cadre
 d'un service vidéo par abonnement. Les montants sont facturés annuellement et sont basés sur le nombre d'abonnés :
 
 100 000 abonnés ou moins = pas de redevances
 100 001 à 250 000 abonnés = 25 000 $
 250 001 à 500 000 abonnés = 50 000 $
 500 001 à 1 000 000 abonnés = 75 000 $
-plus de 1 000 000 d'abonnés = 100 000 $git
+plus de 1 000 000 d'abonnés = 100 000 $
 
-Développeur de logiciels :
+- Développeur de logiciels :
+
 0 - 100 000 unités par an = pas de redevance
 0,20 USD par unité après les 100 000 premières unités chaque année
 au-dessus de 5 millions d'unités par an, redevance = 0,10 $ US par unité.
+
+# Codec AAC :
+
+- Volume (par unité * / réinitialisation annuelle) par unité de frais :
+
+Pour les 1 à 500 000 premières unités 0,98 $
+Pour les unités de 500 001 à 1 000 000 0,78 $
+Pour les unités 1 000 001 à 2 000 000 0,68 $
+Pour les unités de 2 000 001 à 5 000 000 $ 0,45
+Pour les unités de 5 000 001 à 10 000 000 $ 0,42
+Pour les unités de 10 000 001 à 20 000 000 0,22 $
+Pour les unités de 20 000 001 à 50 000 000 $ 0,20
+Pour les unités de 50 000 001 à 75 000 000 0,15 $
+Pour les unités 75 000,001 et plus 0,10 $
+Les produits sous licence comportant plus de deux canaux comptent pour 1,5 unité.
