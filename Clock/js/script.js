@@ -86,12 +86,8 @@ $(function () {
     canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
 
-    // var width = canvas.width;
-    // var height = canvas.height;
-
     clockImage = new Image();
     clockImage.src = 'images/clockbal.png';
-    // document.getElementById("digit").innerHTML = hour + ":" + minute + ":" + seconds;
 
     setInterval(drawScene, 1000); // loop drawScene
 });

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webcam</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/main.css" media="screen" type="text/css"/>
+</head>
+
+<body>
+    <header>
+        <h1>Head tracker</h1>
+    </header>
+
+    <br />
+
+    <button id="capture">Capture</button>
+
+    <br />
+
+    <div id="label-filters">Choose a filter : </div>
+    <select id="filters">
+        <option value="none">None</option>
+        <option value="blur(5px)">Blur</option>
+        <option value="brightness(200%)">Brightness</option>
+        <option value="contrast(200%)">Contrast</option>
+        <option value="drop-shadow(8px 8px 10px gray)">Drop-shadow</option>
+        <option value="grayscale(1)">Grayscale</option>
+        <option value="hue-rotate(90deg)">Hue-rotate</option>
+        <option value="invert(100%)">Invert</option>
+        <option value="opacity(30%)">Opacity</option>
+        <option value="saturate(8)">Saturate</option>
+        <option value="sepia(100%)">Sepia</option>
+        <option value="url()">URL</option>
+    </select>
+
+    <br />
+
+    <canvas id="canvas"></canvas>
+
+    <video id="video" autoplay loop></video>
+
+    <br />
+
+    <div id="headtrackerMessage"></div>
+
+    <br />
+
+    <label for="takenCaptures">Last taken pictures : </label>
+
+    <br />
+
+    <div id="takenCaptures"></div>
+
+</body>
+
+<script src="js/headtracker.js"></script>
+
+</html>
